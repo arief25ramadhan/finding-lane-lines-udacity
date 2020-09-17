@@ -11,3 +11,6 @@ This project aims to find lane lines in images similar to what is seen by an aut
 ## Results
 
 The model can identify lane lines in an image typical of what is shown in an autonomous car's front camera.
+
+<img src="https://github.com/arief25ramadhan/finding_lane_lines/blob/master/lane_lines.gif" width="400">
+
