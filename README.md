@@ -14,3 +14,10 @@ The model can identify lane lines in an image typical of what is shown in an aut
 
 <img src="https://github.com/arief25ramadhan/finding_lane_lines/blob/master/lane_lines.gif" width="400">
 
+## References
+
+In completing this assignment, I learn from similar projects found in these Youtube tutorial and GitHub repository:
+
+https://www.youtube.com/watch?v=eLTLtUVuuy4
+
+https://github.com/LaurentVeyssier/Finding-Lane-Lines-on-the-Road
