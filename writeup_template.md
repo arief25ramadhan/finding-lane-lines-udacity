@@ -23,7 +23,7 @@ My pipeline consisted of 5 steps, which are:
  <li>Convert the images into grayscale</li>
  <li>Perform Gaussian Blur to increase smoothness</li>
  <li>Perform Canny edge detection on the smoothed images </li>
- <li> Draw hough lines on the image while also determining the region of interest. Use the "bitwise and" operator</li>
+ <li> Draw hough lines on the image while also determining the region of interest(roi), use the "bitwise and" operator to get the roi</li>
  <li>Draw the constructed hough line on top of the original image to simulate lane detection</li>
  </ol>
 
