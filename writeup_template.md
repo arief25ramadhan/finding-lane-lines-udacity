@@ -1,21 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Finding Lane Lines on the Road**
-
-The goals/steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
----
-
-### Reflection
-
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps, which are:
@@ -23,7 +7,7 @@ My pipeline consisted of 5 steps, which are:
  <li>Convert the images into grayscale</li>
  <li>Perform Gaussian Blur to increase smoothness</li>
  <li>Perform Canny edge detection on the smoothed images </li>
- <li> Draw hough lines on the image while also determining the region of interest(roi), use the "bitwise and" operator to get the roi</li>
+ <li>Draw hough lines on the image while also determining the region of interest(roi), use the "bitwise and" operator to get the roi</li>
  <li>Draw the constructed hough line on top of the original image to simulate lane detection</li>
  </ol>
 
